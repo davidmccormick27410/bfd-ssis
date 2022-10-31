@@ -26,11 +26,15 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">ENSADMDJMPC1</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkJj2vlC4NkKGTtUNuqpSoAAAAAACAAAAAAADZgAAwAAAABAAAAAU/6L+q8DkZe5kxSPuRQpJAAAAAASAAACgAAAAEAAAAFV52W2mgenxXULolsffWc2IAAAAeCNlrfUBvw4XoburVO9HdYo61cWkWNBt+pedbGMSSODUqpNPSi1C5f4rZ6xV5ei6w24qQiQCOY+XusMf0n0qkzMSlQXrsmoKUUkljjP5qen5UMWN4Yurd4QaSyUFTXRkMvsqiS4P2t7NCvqpi6RhVT44AcZimeqdYFObi7xmj3VG5CKAQXU/yBQAAAAPfjn5hNUkF4646MQWjfrowCIcrw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkJj2vlC4NkKGTtUNuqpSoAAAAAACAAAAAAADZgAAwAAAABAAAABk/yQehwvOfkIzS9CX8lfSAAAAAASAAACgAAAAEAAAAOI4sMrDRnXla6/VGFlnlzyIAAAAj7J0rwH03iDaQafggzuFIZ3unrOaFbuGCUn8vxIWXfy6P1R8UagpfaMs3ebOjQUKj3kDFv1LTBGsrcmtuOXf4uhmNmg5Lo4oAuO90KQmFYnOrP5EVo5iFMhYHLLQ7ZmO4VHlVgDLp0SvJqj5D9T9uBBHaBlSS0AWkJ5BVGxC9pWzMQqOTx2bKxQAAABZreXIDj16Sgjq6bqC/AccVb6lCQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
           <SSIS:Package SSIS:Name="Package.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Get_Lodestar_Data.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Get_Meterman_Data.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Get_PME_Data.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Get_SPOTS_Data.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
@@ -46,6 +50,74 @@
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionGUID">{BC65E613-889B-4389-AF45-196F4C0C7B91}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Get_Lodestar_Data.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{D57A9291-8004-4180-866F-5B709278AE39}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Get_Lodestar_Data</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">2</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{414D952A-6B2D-4E00-A147-1FA553D90099}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Get_Meterman_Data.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{E231A363-0406-4F53-84F6-7D07865D59A1}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{AD37A089-BE87-4487-A15B-56599567BF0D}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Get_PME_Data.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{5C55BABC-99FC-4012-AC5D-4A4A0EDBBA7A}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{94D1F62F-61F8-4EF0-9745-3758AAF9E8B1}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Get_SPOTS_Data.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{63365EB0-7601-4EE2-B8C2-B62819729D49}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{97A48CF0-DFDA-4D65-A578-ABDC3DA1A4AF}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
